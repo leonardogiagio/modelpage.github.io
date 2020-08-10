@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+    background: url("/02-CSS-Básico/projeto-anabelle/images/fundo.png");
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    width: 900px;
+}
+
+#menu ul{
+    background: #C5C5B2;
+    height: 55px;
+    align-items: center;
+    margin-top: 0;
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: -25px;
+}
+
+#menu ul li {
+    color: #4B566A;
+    font-weight: 700;
+    padding: 9px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#conteudo {
+    background-color: #E8E8D9;
+    margin-top: -18px;
+    padding: 10px;
+
+}
+
+#conteudo h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
+
+#rodape {
+    text-align: center;
+}
+
+
+/* Campanhas */
+
+#conteudo img.fotos {
+    border: 10px solid #c3c3ae;
+    margin-right: 180px;
+}
